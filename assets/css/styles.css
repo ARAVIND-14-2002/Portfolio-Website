@@ -353,6 +353,7 @@ footer.light-theme {
 
 .home__img {
   width: 160px;
+  margin-left: 30px;
 }
 
 .home__handle {
@@ -403,8 +404,7 @@ footer.light-theme {
 }
 
 .home__social-link:hover {
-  background-color: var(--first-color);
-  color: #ffffff;
+ transform: scale(1.25);
 }
 
 .home__social::after {
