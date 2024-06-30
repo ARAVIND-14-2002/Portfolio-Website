@@ -153,6 +153,12 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
+function toggleNav() {
+  const navMenu = document.getElementById('navMenu');
+  navMenu.classList.toggle('open');
+}
+
+
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
